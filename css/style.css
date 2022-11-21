@@ -1,0 +1,33 @@
+.nav{
+    height: 52px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #D3D3D3;
+    backdrop-filter: blur(25px);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1064px;
+}
+
+.nav h6{
+    color: #B5B5B5;
+
+}
+
+.nav__buttons{
+    display: flex;
+    gap: 24px;
+}
+
+.nav__button{
+    background: radial-gradient(87.97% 1037.9% at 8.23% 32.61%, #599C35 0%, #4A8B30 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 39px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 3px 9px;
+    font-weight: 300;
+    color: white;
+}
