@@ -1,14 +1,20 @@
 .nav{
     height: 52px;
+    display: flex;
+    max-width: 1068px;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.8);
     border-bottom: 1px solid #D3D3D3;
     backdrop-filter: blur(25px);
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 1064px;
+}
+
+.space{
+    padding: 150px;
 }
 
 .nav h6{
@@ -30,4 +36,25 @@
     padding: 3px 9px;
     font-weight: 300;
     color: white;
+}
+
+.header{
+    padding-top: 70px;
+    margin-top: 0;
+}
+
+.objections{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    gap: 30px;
+}
+
+.objections span{
+    color: #6F6F6F;
+}
+
+.objection{
+    max-width: 50%;
+    padding: 30px 85px;
 }

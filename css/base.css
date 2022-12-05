@@ -3,12 +3,14 @@ html,body{
 }
 
 body{
+    padding: 0 25px;
     margin: 0 auto;
     max-width: 1068px;
     font-family: 'Inter', sans-serif;
 }
 
 h1{
+    width: 100%;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -35,7 +37,8 @@ h6{
     color: #000000;
 }
 
-p{
+p, pre{
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -45,4 +48,20 @@ p{
 
 button{
     font-family: 'Inter', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.br_100{
+    border-radius: 100px;
+}
+
+.bg_grey{
+    background-color: #fbfbfd;
+}
+
+.indent{
+    text-indent: 20px;
 }
