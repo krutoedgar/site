@@ -75,10 +75,42 @@
     width: 40%;
 }
 
+.start__block_left{
+    display: flex;
+    justify-content: space-around;
+}
+
 .start__block_right{
     background-color: #fbfbfd;
 }
 
 .start__block_img{
     border-radius: 100px 0px 0px 100px;
+}
+
+.start__block_text{
+    display: flex;
+    border-radius: 0px 100px 100px 0px;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.start__block_text h1 span{
+    background: linear-gradient(93.67deg, #4A8B30 1%, #5DB43B 18.97%, #4A8B30 37.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.start__block_text h1{
+    text-align: left;
+    max-width: 450px;
+}
+
+.start__block_text p{
+    text-align: left;
+    align-items: center;
+    max-width: 300px;
+    margin-left: 137px;
+    
 }
