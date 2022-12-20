@@ -59,10 +59,48 @@ pre {
 
 button {
   font-family: "Inter", sans-serif;
+  border-radius: 15px;
+}
+
+.button__white {
+  color:#646464;
+  background-color: #ffffff;
+  border: 1px solid #0176FF;
+  width: 345px;
+  height: 45px;
+  text-align: left;
+  padding-left: 21px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button__green {
+  width: 149px;
+  height: 46.23px;
+  background: #599C35;
+  color: #ffffff;
+  outline: none;
+  border: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 img {
   width: 100%;
+}
+
+input {
+  border: 1px solid #949494;
+  border-radius: 15px; 
+  width: 320px;
+  height: 45px;
+  padding-left: 21px;
+  color: #646464;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .br_100 {
