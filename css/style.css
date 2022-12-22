@@ -290,7 +290,7 @@ border-radius: 45px;
 }
 
 .cta{
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .cta__header{
@@ -317,7 +317,7 @@ border-radius: 45px;
 }
 
 .cta__blockl_img{
-  width: 400px;
+  max-width: 400px;
   height: 400px;
   margin-right: 100px;
 }
@@ -337,6 +337,7 @@ border-radius: 45px;
   text-align: center;
   background: rgba(255, 255, 255, 0.8);
   border-top: 1px solid #d3d3d3;
+  padding-top: 15px;
   
   font-weight: 400;
   font-size: 12px;
@@ -344,6 +345,18 @@ border-radius: 45px;
 }
 
 .footer span{
-  padding: 15px 0;
   color: #b5b5b5;
+}
+
+.cta__br{
+  display: flex;
+  justify-content: space-between;
+  max-width: 345px;
+  align-items: center;
+}
+
+.hr{
+  content: "";
+  width: 38%;
+  border-bottom: #646464 1px solid;
 }
