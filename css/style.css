@@ -60,7 +60,7 @@
 }
 
 .objection {
-  max-width: 50%;
+  width: 50%;
   padding: 30px 85px;
 }
 
@@ -193,27 +193,11 @@
   border-radius: 45px;
 }
 
-.objectionsr {
+.objections {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 28px;
   gap: 30px;
-}
-
-.objectionr {
-  max-width: 37%;
-}
-
-.objectionr p {
-  margin-top: 70px;
-}
-
-.objectionr pre {
-  margin-top: 40px;
-}
-
-.objectionsr span {
-  color: #6f6f6f;
 }
 
 .video__block {
@@ -229,7 +213,7 @@
 
 .video__text {
   max-width: 47%;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .video__text p {
@@ -284,6 +268,7 @@ border-radius: 45px;
   box-shadow: 7px 14px 27px rgba(0, 0, 0, 0.1);
   border-radius: 45px;
 }
+
 .objection__text{
   text-align: center;
   margin-top: 60px;
@@ -359,4 +344,53 @@ border-radius: 45px;
   content: "";
   width: 38%;
   border-bottom: #646464 1px solid;
+}
+
+@media (max-width: 1140px) {
+
+  .start__block_text p{
+    margin-left: 0;
+  }
+
+  .start__block_absolute{
+    display: none;
+  }
+
+  .start__blockl_absolute{
+    display: none;
+  }
+
+  .start__img_bb8{
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .objection{
+    padding: 20px 40px;
+  }
+
+  .lessons__images{
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .lessons__image{
+    margin-right: 35px;
+  }
+
+  .start__block_absolute{
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .objection {
+    width: 40%;
+    padding: 20px 25px;
+  }
+
+  .start img {
+    display: none;
+  }  
 }
