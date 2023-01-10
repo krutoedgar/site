@@ -119,10 +119,18 @@ input {
   text-indent: 20px;
 }
 
+.hidden_960px{
+  display: none;
+}
+
 @media (max-width: 960px) {
   .h5{
     font-size: 35px;
   }
+
+  .hidden_960px{
+    display: block;
+    }
 }
 
 @media (max-width: 640px) {
