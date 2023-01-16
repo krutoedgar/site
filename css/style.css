@@ -212,6 +212,11 @@
   max-width: 47%;
 }
 
+.video__vk{
+  width: 518.51px;
+  height: 519px;
+}
+
 .video__text {
   max-width: 47%;
   padding-top: 30px;
@@ -384,6 +389,26 @@ border-radius: 45px;
     display: none;
   }
 
+  .video__block{
+    display: block;
+  }
+
+  .video__wrapper{
+    max-width: 100%;
+  }
+
+  .video__vk{
+    width: 100%;
+  }
+
+  .video__text{
+    max-width: 100%;
+  }
+
+  .video__text p{
+    max-width: 60%;
+  }
+
   .cta__blockl_img{
     margin-right: 0px;
   }
@@ -398,4 +423,29 @@ border-radius: 45px;
   .start img {
     display: none;
   }  
+
+  .start__block{
+    justify-content: center;
+  }
+
+  .start__block_text{
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .start__blockl_text{
+    padding: 20px 0;
+  }
+
+  .cta__start_block{
+    justify-content: center;
+  }
+
+  .cta__blockl_text{
+    margin-left: 25px;
+  }
+
+  .cta__blockl_img{
+    display: none;
+  }
 }
