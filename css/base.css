@@ -119,16 +119,24 @@ input {
   text-indent: 20px;
 }
 
-.hidden_960px{
+.unhidden_960px{
   display: none;
 }
 
+.hidden_640px{
+  display: block;
+}
+
 @media (max-width: 960px) {
-  .h5{
+  h1{
     font-size: 35px;
   }
 
-  .hidden_960px{
+  p{
+    font-size: 15px;
+  }
+
+  .unhidden_960px{
     display: block;
     }
 }
@@ -156,5 +164,9 @@ input {
 
   input{
     font-size: 15px
+  }
+
+  .hidden_640px{
+    display: none;
   }
 }
